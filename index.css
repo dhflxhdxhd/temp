@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('./src/img/porto.jpg') no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+
+    position: relative;
+}
+
+.list-svg{
+    position: absolute;
+    width: 70px;
+    height: 65.93px;
+    right: 3%;
+    top: 31px;    
+}
+
+.title-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper .title{
+    height : 7em;
+}
+
+.good4{
+    margin-right : 50px;
+}
+
+.vibes5{
+    margin-right : 50px;
+}
