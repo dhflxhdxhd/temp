@@ -26,13 +26,13 @@ body{
     position: relative;
 }
 
-.list-svg{
+/* .list-svg{
     position: absolute;
     width: 70px;
     height: 65.93px;
     right: 3%;
     top: 31px;    
-}
+} */
 
 .title-wrapper{
     height: 100vh;
@@ -41,14 +41,52 @@ body{
     align-items: center;
 }
 
-.title-wrapper .title{
-    height : 7em;
+.title{
+    height : 8em;
+    padding: 0px 1px 20px 1px;
+    animation: wave 0.5s linear  alternate;
 }
 
-.good4{
-    margin-right : 50px;
+.title:not(.only1):hover{
+    animation: wave 0.5s infinite linear alternate;
 }
 
-.vibes5{
-    margin-right : 50px;
+.only1:hover{
+    animation: flowerTurn 5s infinite linear;
+}
+
+.good1{animation-delay: 0.2s;}
+.good2{animation-delay: 0.4s;}
+.good3{animation-delay: 0.6s;}
+.good4{animation-delay: 0.8s; margin-right : 50px;}
+.vibes1{animation-delay: 1.0s;}
+.vibes2{animation-delay: 1.2s;}
+.vibes3{animation-delay: 1.4s;}
+.vibes4{animation-delay: 1.6s;}
+.vibes5{animation-delay: 1.8s; margin-right : 50px;}
+.only1{animation-delay: 2.0s;}
+.only2{animation-delay: 2.2s;}
+.only3{animation-delay: 2.4s;}
+.only4{animation-delay: 2.6s;}
+
+@keyframes wave {
+    0%{
+        margin-bottom: 0%;
+    }
+    50%{
+        margin-bottom: 10%;
+    }
+    100%{
+        margin-bottom: 0%;
+    }
+
+}
+
+
+@keyframes flowerTurn {
+    to{
+        transform: rotate(360deg);
+        transform-origin:  55% 35%;
+    }
+
 }
