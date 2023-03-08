@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dhflxhdxhd/dhflxhdxhd.github.io/issues"
   },
-  "homepage": "https://github.com/dhflxhdxhd/dhflxhdxhd.github.io#readme"
+  "homepage": "https://github.com/dhflxhdxhd/dhflxhdxhd.github.io#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
