@@ -22,20 +22,14 @@ body{
     background: url('./src/img/porto.jpg') no-repeat;
     background-position: 50% 60%;
     background-size: cover;
-
-    position: relative;
 }
 
-/* .list-svg{
-    position: absolute;
-    width: 70px;
-    height: 65.93px;
-    right: 3%;
-    top: 31px;    
-} */
+
+
 
 .title-wrapper{
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,3 +84,5 @@ body{
     }
 
 }
+
+
